@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+
+.boton{
+  background-color: green;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: #61dafb;
+  height: 50px;
+}
+
+.link{
+  text-decoration: none;
+}
+
+.buscadorInput{
+    height: 30px;
+    margin: 20px;
+}
+
+.buscador{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.listadoPersonajes{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
